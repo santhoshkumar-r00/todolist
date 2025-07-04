@@ -1,0 +1,81 @@
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+ }
+
+ header {
+     text-align: center;
+     background-color: #007BFF;
+     color: white;
+     padding: 1em 0;
+ }
+
+ section {
+     padding: 20px;
+     max-width: 700px;
+     margin: auto;
+ }
+
+ input,
+ textarea {
+     width: 100%;
+     padding: 10px;
+     margin: 5px 0;
+     font-size: 16px;
+     box-sizing: border-box;
+ }
+
+ button {
+     padding: 10px 20px;
+     font-size: 16px;
+     margin-top: 10px;
+     cursor: pointer;
+ }
+
+ .task {
+     padding: 10px 20px;
+     font-size: 16px;
+     margin-top: 10px;
+     cursor: pointer;
+     background-color: white;
+     margin-top: 20px;
+     padding: 15px;
+     position: relative;
+     border-left: 5px solid #007BFF;
+     border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .completeTask {
+    background-color: #28a745; /* green */
+    color: white;
+    border: none;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+.completeTask:hover {
+    background-color: #218838;
+}
+
+.deleteTask {
+    background-color: #dc3545; /* red */
+    color: white;
+    border: none;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+.deleteTask:hover {
+    background-color: #c82333;
+}
+
+.editTask {
+    background-color: #ffc107; /* yellow/orange */
+    color: black;
+    border: none;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+.editTask:hover {
+    background-color: #e0a800;
+}  
